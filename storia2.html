@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>La Galleria delle opere rimosse</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="stile/stile.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header>
+			<h1>La Galleria delle opere rimosse
+			<link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet'></h1>
+		</header>
+		<nav>
+			<p><a href="index.html" class="barra">Home</a><a href="storia.html" class="pagina-attiva">Storia</a><a href="listitems.html" class="barra">Catalogo</a></p>
+		</nav>
+		<section>
+			<div class="topnav">
+			  <a href="storia.html">Tra il 1850 e il 1950</a>
+			  <a class="active" href="storia2.html"><strong>Arte contemporanea</strong></a>
+			</div>
+			<div id="myNav" class="overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="overlay-content">
+			    <a href="#">Ai Weiwei</a>
+			    <a href="#">Andres Serrano</a>
+			    <a href="#">Damien Hirst</a>
+			    <a href="#">Gino De Dominicis</a>
+			    <a href="#">Niki de Saint Phalle</a>
+			  </div>
+			</div>
+
+			<span style="font-size:20px;cursor:pointer" onclick="openNav()">GLI ARTISTI</span>
+
+			<div class="descrizione2">
+				<p>L'arte dei nostri giorni è ricca di ogni forma di espressione. La cultura, la società e il pensiero si evolvono, ma ancora oggi è facile per molti artisti essere giudicati immorali e vedere le proprie opere bandite da gllerie e musei.</p>
+				<p>Tra gli artisti contemporanei criticati troviamo il nome di Serrano, additato per il suo <em>Piss Christ</em>, fotografi come Oliviero Toscani criticato per il suo progetto <em>Sentenced to death</em> dove i protagonisti sono detenuti nel braccio della morte, e Robert Mapplethorpe, criticato per le sue opere che spezzano il confine tra foto d'arte e foto pornografica.</p>
+			
+				<div class="slideshow-container2">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 3</div>
+				  <img src="stile/img/slide2/hirst1.jpeg" style="width:100%">
+				  <div class="text"><em>Formaldehyde Sculpture</em></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 3</div>
+				  <img src="stile/img/slide2/toscani.jpeg" style="width:100%">
+				  <div class="text" style="color:black;"><em>Sentenced to Death</em></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 3</div>
+				  <img src="stile/img/slide2/nitsch.jpeg" style="width:100%">
+				  <div class="text" style="color:black";><em>Schüttbild</em></div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+
+				</div>
+				
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+	
+				<p>Hermann Nitsch è stato a lungo vittima di atti censori a causa della "violenza" delle sue opere. Nitsh è uno dei maggiori espoenti dell'Azionismo Viennese e sin dai suoi primi lavori crea opere gettando colore e sangue sulla tela. Criticato da sempre da animalisti e religiosi, che hanno chiesto la sospensione delle sue <em>Aktionen</em> per maltrattamento di animali.<br>L'obiettivo dell'artista è proprio quello di suscitare orrore e disprezzo mediante il suo operato, attraverso giochi rituali che durano diversi giorni, incitando gruppi di persone a squartare bestie da soma, tirarne fuori le viscere e calpestarle. L'artista però, dopo diverse proteste animaliste, ha dichiarato che gli animali utilizzati sono stati aquistati già macellati, e che egli stesso è contro le forme di allevamento che maltrattano gli animali.</p>
+
+				<video controls>
+				  <source src="stile/video/aktionen.mp4" type="video/mp4">
+				</video>
+				<a href="https://www.youtube.com/watch?v=Zhav3sTPak4&list=PLzVxpswHBqkcNGrYW7B8UK-oNrEZE9QW4&index=6" target="_blank" title="Apre pagina video youtube" class="dvideo">Vai al video completo</a>
+				
+				<p>Le motivazioni sono quindi varie, da quelle religiose e sacre come nel caso di Serrano a quelle legate alla tutela degli animali come nelle opere di Hirst. In altri casi sono legate ad argomenti come maschilismo, razzismo, accuse di pedofilia, come nel caso già citato di Schiele che, non solo è stato criticao nel suo tempo, ma ancora oggi viene censurato perchè le sue opere sono considerate pornografiche.</p>
+			</div>
+
+			<div>
+					<form action="/action_page.php">
+					  <div class="container">
+					    <h1>newsletter</h1>
+					    <p>Iscriviti alla newsletter per restare sempre aggiornato sugli ultimi item aggiunti al catalogo e sulle novità più interessanti e partecipa alla discussione sul mondo dell'arte!
+					   </p>
+					  </div>
+
+					  <div class="container" style="background-color:white">
+						    <input type="text" placeholder="Name" name="name" required>
+						    <input type="text" placeholder="Email address" name="mail" required>
+						    <label>
+						      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+						    </label>
+					  </div>
+
+						 <div class="container">
+						    <input type="submit" value="Subscribe">
+							</div>
+					</form>
+				</div>
+				
+			<div class="coda">
+			<p><a href="#">Credits</a>|<a href="#">Licenze</a></p>
+			</div>
+		</section>
+		<footer>
+			<p>&copy;Copyright Valentina Leopizzi 2024 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</footer>	
+			
+		<script>
+			let slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
+		
+			<script>
+			function openNav() {
+			  document.getElementById("myNav").style.height = "100%";
+			}
+
+			function closeNav() {
+			  document.getElementById("myNav").style.height = "0%";
+			}
+			</script>
+		
+	</body>	
+</html>	

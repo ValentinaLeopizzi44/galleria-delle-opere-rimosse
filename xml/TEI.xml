@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-corg/ns/1.0">
+	<teiHeader>
+		<filedesk>
+			<titleStmt>
+				<title>Il caso Guguin</title>
+				<author>Valentina Leopizzi</author>
+				<respStmt>
+					<resp>editore</resp>
+					<name xml:id="VT">Valentina Leopizzi</name>
+					<resp>marcatura</resp>
+					<name xml:id="VT">Valentina Leopizzi</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Università di Bologna</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Born digital: non esiste una fonte precedente</p>
+			</sourceDesc>
+		</filedesk>
+	</teiHeader>
+	<text>
+		<body>
+			<p>
+				<name type="person" viaf="http://viaf.org/viaf/27064953">Paul Gauguin</name>, considerato tra i maggiori <occupation>artisti</occupation> del simbolismo, nasce in <nationality><country>Francia</country></nationality> ma stanco della mondanità parigina si rifugia a <settlement GeoNames="https://www.geonames.org/4033649/tahiti.html">Tahiti</settlement>, in <country GeoNames="https://www.geonames.org/7729901/polynesia.html">Polinesia</country>. Qui, ammaliato dai colori della natura, dalla popolazione e dalla cultura, <name type="persone">Gauguin</name> dipinge tutto il suo amore per l'<geogFeat>isola</geogFeat> e le protagoniste sono spesso le <personGrp>giovani donne</personGrp> che la abitano, come ne <hi rend="italics">Lo spirito dei morti veglia</hi>.
+			</p>
+			<p>
+				Negli <date when="2020">ultimi anni</date> l'artista è stato molto discusso nell'ambito del <foreign xml:lang="en">politically correct</foreign> per via delle opere raffiguranti proprio le <personGrp>giovani donne</personGrp> di <settlement>Tahiti</settlement>.
+				Una delle protagonisti della questione è la <name type="place">National Gallery</name> di <settlement GeoNames="https://www.geonames.org/2643743/london.html">Londra</settlement> dove, su uno dei pannelli della mostra <name type="object">'Gauguin Portraits'</name>, si potevano leggere commenti come <q>È ora di smettere una volta per tutte di ammirare <name type="person">Gauguin</name>? Quel pedofilo, misogino, colonialista, predatore bianco di <name type="person">Paul Gauguin</name> che intraprese numerose relazioni con <personGrp>giovani ragazze</personGrp>, sposandone due da cui ebbe <personGrp>figli</personGrp></q> e <q>senza dubbio sfruttò la sua posizione privilegiata di uomo occidentale per ottenere la massima libertà sessuale</q>, cartelli che incarnano le fantasie misogine dell'<bloc GeoNames="https://www.geonames.org/6255148/europe.html">Europa</bloc> coloniale sulle <personGrp>donne polinesiane</personGrp>.
+				Per la <name type="place">National Gallery</name> quindi, è come se fosse arrivato il momento di 'dire la verità' su <name type="person">Gauguin</name> e chiederci se oggi è ancora possibile <q>amare il lavoro di artisti di cui detestiamo il comportamento</q>.
+			</p>
+			<p>
+				Il <hi rend="italics"><name type="object">New York Times</name></hi> ha pubblicato un articolo dove si legge <q>sarebbe meglio non esporre nessuno opera del pittore parigino perchè ebbe relazioni con <personGrp>quattordicenni polinesiani</personGrp></q>, <name type="person">Gauguin</name> viene quindi trattato con orrore e dannato.
+				Si invoca la censura su un'artista che ha lasciato la <country>Francia</country> in nome di un ideale antiborghese scegliendo <settlement>Tahiti</settlement>, terra incontaminata ancora non sporcata dalle costrizioni della civilizzazione borghese, e morí povero e senza conforti religiosi rifiutati dal <rs typr="person">vescovo</rs> locale. <name type="person">Gauguin</name> si adeguò all'usanza del posto e prese in sposa una <rs type="person">ragazzina</rs> di nome <name type="person">Tehamana</name>, che volle immortalare a seno nudo in <hi rend="italics"><foreign xml:lang="es"><name type="object">Cantos Barbares</name></foreign></hi> del 1902, opera che fa parte della mostra incriminata.
+				<name type="person">Gauguin</name> glorificato in passato come eroe di ogni trasgressione, campione della libertà e della protesta contro il Sistema <q>dal rame del Bene è brutalmente caduto nell'inferno del Male</q>.
+			</p>
+		</body>
+	</text>
+</TEI>

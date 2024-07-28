@@ -1,0 +1,695 @@
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	font-family: 'Inter';
+	line-height: 25px;
+	letter-spacing: 1px;
+	height: 100%;
+}
+
+header {
+	position: fixed;
+	top: 0; 
+  width: 100%;
+	padding: 5px;
+	background-color: white;
+	margin: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgray;
+	border-bottom-width: 1px;
+}
+
+h1 {
+	color: black;
+	font-family: "UnifrakturCook";
+}
+
+nav {
+	word-spacing: 13px;
+	background-color: white;
+	color: black;
+	margin:0px;
+	margin-top: 95px;
+}
+
+div.intro {
+	padding-top: 465px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+	border: 0px;
+	background-image: url("img/sommeil1.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+
+div.titolo {
+	height: 230px;
+	background-color: white;
+	color: black;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: -115px;
+}
+
+h2 {
+	text-align: center;
+	padding: 50px;
+	color: black;
+	letter-spacing: 3px;
+	line-height: 25px;
+  font-weight: 100;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  letter-spacing: 3px;
+  line-height: 15px;
+  font-weight: 100;
+}
+
+
+.column-side {
+	text-align: justify;
+}
+
+.descrizione {
+	padding: 20px;
+	text-align: justify;
+	border-top-style: solid;
+	border-top-color: lightgray;
+	border-top-width: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+footer p, nav p, h1, h4, .intro, .coda {
+	text-align: center;
+}
+
+footer {
+	padding: 3px;
+	background-color: gray;
+	color: whitesmoke;
+	clear: both;
+	font-size: 11px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.invisible:link, .invisible:visited {
+	color: lightgray;
+	text-decoration: none;
+}
+
+.invisible:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.barra {
+	background-color: white;
+	color: black;
+	padding: 13px;
+}
+
+.barra:hover {
+	background-color: white;
+	color: black;
+	padding: 13px;
+	text-decoration: none;
+}
+
+.pagina-attiva {
+	background-color: white;
+	color: black;
+	padding: 13px;
+	text-decoration: none;
+}
+
+.pagina-attiva:hover {
+	background-color: white;
+	color: black;
+	padding: 13px;
+	text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.part {
+  float: left;
+  padding: 30px;
+}
+
+.part.side {
+  width: 21%;
+}
+
+.part.middle {
+  width: 58%;
+}
+
+.row2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+* {box-sizing: border-box;}
+body {font-family: 'Inter', sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+.topnav {
+	padding: 14px;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	word-spacing: 8px;
+	margin-top: 30px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgray;
+	border-bottom-width: 1px;
+	margin-bottom: 20px;
+	
+}
+
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:link, .topnav a:visited {
+	color: black;
+	background-color: white;
+}
+
+.descrizione2 {
+	padding-top: 15px;
+	text-align: justify;
+	margin-left: 120px;
+	margin-right: 120px;
+	line-height: 25px;
+	text-indent: 10px;
+}
+
+.erba {
+	padding: 20px;
+	float: left;
+}
+
+.coda {
+	clear: both;
+	font-size: 11px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Inter; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container2 {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+.dvideo:link, .dvideo:visited {
+	text-align: center;
+	font-size: 13px;
+	color: gray;
+	text-decoration: none;
+	margin-left: 43%;
+}
+
+.dvideo:hover {
+	text-align: center;
+	color: black;
+	text-decoration:underline ;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+span {
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  margin-left: 43%;
+}
+
+span:hover {
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  background-color: lightgray;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.row {
+  margin: 10px -16px;
+  border-top-style: solid;
+  border-top-color: lightgray;
+  border-top-width: 1px;
+}
+
+.row,
+.row > .column {
+  padding: 6px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+  font-size: 12px;
+  line-height: 12px;
+  }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 2px;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+h5 {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.item {
+  padding: 40px;
+  float: left;
+  margin-top: 0px;
+  border-top-style: solid;
+  border-top-color: lightgray;
+  border-top-width: 2px;
+  margin-left: 35px;
+
+}
+
+meta {
+  padding: 20px;
+  margin: 20px;
+  padding-top: 60px;
+  line-height: 5px;
+  clear: both;
+}
+
+h6 {
+  line-height: 6px;
+  font-size: 18px;
+}
+
+.testo {
+  padding: 50px;
+  text-align: justify;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  margin: 30px;
+  text-indent: 10px;
+}
+
+
+form {
+  margin: 10px;
+  border: 1px solid #f1f1f1;
+  font-family: "Inter";
+  clear: both;
+}
+
+.container {
+  margin: 20px;
+  padding: 5px;
+  background-color: #f1f1f1;
+  text-align: center;
+  clear: both;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #331a00;
+  color: #f1f1f1;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.slideshow-container3 {
+  max-width: 400px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.ssg {
+  float: left;
+}
+
+.testo2 {
+  padding: 50px;
+  text-align: justify;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  margin: 30px;
+  text-indent: 10px;
+  margin-left: 500px;
+}
+
+.btnd {
+  text-align: center;
+  background-color: white;
+  border: solid 1px lightgray;
+  color: gray;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.btnd:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.btndd{
+  padding: 10px;
+  margin-left: 43%;
+}
+
+
+
+
+
+
+
+

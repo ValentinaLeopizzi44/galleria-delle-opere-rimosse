@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>La Galleria delle opere rimosse</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="stile/stile.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>
+			<h1>La Galleria delle opere rimosse
+			<link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet'></h1>
+		</header>
+		<nav>
+			<p><a href="index.html" class="barra">Home</a><a href="storia.html" class="barra">Storia</a><a href="listitems.html" class="pagina-attiva">Catalogo</a></p>
+			</div>
+		</nav>
+		
+		<section>
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="#">Dalla A alla Z</a>
+			  <a href="#">Ordine cronologico</a>
+			  <a href="listitemita.html">Opere in Italia</a>
+			  <a href="#">Opere all'estero</a>
+			</div>
+
+			<div id="main">
+			  <span style="font-size:15px; margin-left: 100px; cursor:pointer" onclick="openNav()">Ricerca</span>
+			
+				<div class="main">
+
+				<div id="myBtnContainer">
+				  <button class="btn active" onclick="filterSelection('all')">Vedi tutto</button>
+				  <button class="btn" onclick="filterSelection('1850')">1850-1950</button>
+				  <button class="btn" onclick="filterSelection('cont')">Contemporanea</button>
+				  <button class="btn" onclick="filterSelection('18con')">1850-1950 nel contemporaneo</button>
+				</div>
+
+				<div class="row">
+				  <div class="column 1850">
+				    <div class="content">
+				      <img src="stile/img/items/sommeil.jpeg" alt="Il Sonno" style="width:100%">
+				      <h5><em>Il Sonno</em></h5>
+				      <p>Goustave Courbet</p>
+				      <p>Parigi, 1866</p>
+				    </div>
+				  </div>
+				  <div class="column 1850">
+				    <div class="content">
+				    <img src="stile/img/items/origine.jpeg" alt="L'origine del mondo" style="width:100%">
+				      <h5><em>L'origine del mondo</em></h5>
+				      <p>Goustave Courbet</p>
+				      <p>Parigi, 1866</p>
+				    </div>
+				  </div>
+				  <div class="column 1850">
+				    <div class="content">
+				    <img src="stile/img/items/reclining.jpeg" alt="Reclining female nude" style="width:100%">
+				      <h5><em>Reclining female nude</em></h5>
+				      <p>Egon Schiele</p>
+				      <p>Vienna, 1917</p>
+				    </div>
+				  </div>
+				  <div class="column 1850">
+				    <div class="content">
+				    <img src="stile/img/items/modigliani.jpeg" alt="Nudo disteso di schiena" style="width:100%">
+				      <h5><em>Nudo disteso di schiena</em></h5>
+				      <p>Amedeo Modigliani</p>
+				      <p>Livorno, 1917</p>
+				    </div>
+				  </div>
+				  
+				  <div class="column cont">
+				    <div class="content">
+				      <img src="stile/img/items/hon.jpeg" alt="Hon/Elle" style="width:100%">
+				      <h5><em>Hon/Elle</em></h5>
+				      <p>Niki de Saint Phalle</p>
+				      <p>Stoccolma, 1966</p>
+				    </div>
+				  </div>
+				  <div class="column cont">
+				    <div class="content">
+				    <img src="stile/img/items/soluzione2.jpeg" alt="Seconda soluzione d'immoralità" style="width:100%">
+				      <h5><em>Seconda soluzione d'immoralità</em></h5>
+				      <p>Gino De Dominicis</p>
+				      <p>Venezia, 1972</p>
+				    </div>
+				  </div>
+				  <div class="column cont">
+				    <div class="content">
+				    <img src="stile/img/items/piss.jpeg" alt="Piss Christ" style="width:100%">
+				      <h5><em>Piss Christ</em></h5>
+				      <p>Andres Serrano</p>
+				      <p>USA, 1987</p>
+				    </div>
+				  </div>
+				  <div class="column cont">
+				    <div class="content">
+				    <img src="stile/img/items/hirst2.jpeg" alt="A Thousand Years" style="width:100%">
+				      <h5><em>A Thousand Years</em></h5>
+				      <p>Damien Hirst</p>
+				      <p>Londra, 1989</p>
+				    </div>
+				  </div>
+				  <div class="column cont">
+				    <div class="content">
+				    <img src="stile/img/items/perspective2.jpeg" alt="Study of perspective" style="width:100%">
+				      <h5><em>Study of perspective</em></h5>
+				      <p>Ai Weiwei</p>
+				      <p>Around the globe, 1995-2003</p>
+				    </div>
+				  </div>
+
+				<div class="column 18con">
+				    <div class="content">
+				    <img src="stile/img/items/schielea.jpeg" alt="Ragazza dalle calze arancioni" style="width:100%">
+				      <h5><em>Ragazza dalle calze arancioni</em></h5>
+				      <p>Egon Shiele</p>
+				      <p>Vienna, 1912</p>
+				    </div>
+				  </div>
+				<div class="column 18con">
+				    <div class="content">
+				    <img src="stile/img/items/therese.jpeg" alt="Thérèse Revânt" style="width:100%">
+				      <h5><em>Thérèse Revânt</em></h5>
+				      <p>Balthus</p>
+				      <p>Parigi, 1938</p>
+				    </div>
+				  </div>
+				  <div class="column 18con">
+				    <div class="content">
+				      <img src="stile/img/items/picasso.jpeg" alt="Donna nuda in poltrona rossa" style="width:100%"></a>
+				      <h5><em>Donna nuda in poltrona rossa</em></h5>
+				      <p>Picasso</p>
+				      <p>Parigi, 1932</p>
+				    </div>
+				  </div>
+				  <div class="column 18con">
+				    <div class="content">
+				    <a href="item2.html"><img src="stile/img/items/manao.jpeg" alt="Lo spirito dei morti veglia" style="width:100%"></a>
+				      <h5><em>Lo spirito dei morti veglia</em></h5>
+				      <p>Gauguin</p>
+				      <p>Tahiti, 1892</p>
+				  </div>
+				</div>
+				  <div class="column 18con">
+				    <div class="content">
+				      <a href="item.html"><img src="stile/img/items/ninfe1.jpeg" alt="Hyla e le ninfe" style="width:100%"></a>
+				      <h5><em>Hyla e le ninfe</em></h5>
+				      <p>John William Waterhouse</p>
+				      <p>Londra, 1896</p>
+				    </div>
+				  </div>
+				</div>
+				</div>
+			</div>
+
+			<div>
+					<form action="/action_page.php">
+					  <div class="container">
+					    <h1>newsletter</h1>
+					    <p>Iscriviti alla newsletter per restare sempre aggiornato sugli ultimi item aggiunti al catalogo e sulle novità più interessanti e partecipa alla discussione sul mondo dell'arte!
+					   </p>
+					  </div>
+
+					  <div class="container" style="background-color:white">
+						    <input type="text" placeholder="Name" name="name" required>
+						    <input type="text" placeholder="Email address" name="mail" required>
+						    <label>
+						      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+						    </label>
+					  </div>
+
+						 <div class="container">
+						    <input type="submit" value="Subscribe">
+							</div>
+					</form>
+				</div>
+
+			<div class="coda">
+			<p><a href="#">Credits</a>|<a href="#">Licenze</a></p>
+			</div>
+		</section>
+		<footer>
+			<p>&copy;Copyright Valentina Leopizzi 2024 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</footer>	
+		<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+		</script>
+		<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+	</body>	
+</html>

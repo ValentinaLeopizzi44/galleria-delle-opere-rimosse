@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>La Galleria delle opere rimosse</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="stile/stile.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header>
+			<h1>La Galleria delle opere rimosse
+			<link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet'></h1>
+		</header>
+		<nav>
+			<p><a href="index.html" class="barra">Home</a><a href="storia.html" class="pagina-attiva">Storia</a><a href="listitems.html" class="barra">Catalogo</a></p>
+		</nav>
+		<section>
+			<div class="topnav">
+			  <a class="active" href="storia.html"><strong>Tra il 1850 e il 1950</strong></a>
+			  <a href="storia2.html">Arte contemporanea</a>
+			</div>
+			<div id="myNav" class="overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="overlay-content">
+			    <a href="#">Balthus</a>
+			    <a href="#">Goustave Courbet</a>
+			    <a href="item.html">John William Watherouse</a>
+			    <a href="item2.html">Il caso Gauguin</a>
+			    <a href="#">Il caso Shiele</a>
+			  </div>
+			</div>
+
+			<span style="font-size:20px;cursor:pointer" onclick="openNav()">GLI ARTISTI</span>
+
+			<div class="descrizione2">
+				<p>A cavallo tra questi due secoli l'arte cambia velocemente. Nonostante ciò, tanti sono gli artisti che vedono le loro opere rimosse da esposizioni e gallerie.</p>
+				<p>Ma quali sono le motivazioni?<p>
+				<p>Le motivazioni sono strettamente legate alla cultura del tempo dell'opera. Uno dei più famosi esempi è <em>Colazione sull'erba</em> di Manet, rifiutata perchè la nudità della ragazza in primo piano, destò scandalo in quanto non raffigura una divinità, ma una semplice donna del tempo.
+				L'etica ben pensante dell'epoca rifiutava determiate raffigurazioni, e i maggiori problemi li avevano quelle con donne come protagoniste, nel momento in cui non rispecchiavano i valori richiesti. Un'opera troppo provocatoria, erotica o che mostri la forza di una donna, non era ben vista dalle più grandi gallerie. Un esempio è la <em>Giuditta</em> di Klimt, opera criticata per la troppa sensualità ostentata e definita oscena. Altro esempio è <em>Il nudo che scende le scale</em> di Duchamp che fu giudicato inappropriato a causa della scelta dell'artista di dare movimento al nudo, e per questo motivo l'opera non fu esposta.</p>
+				<div class="slideshow-container2">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 3</div>
+				  <img src="stile/img/slide2/manet.jpeg" style="width:100%">
+				  <div class="text"><em>Colazione sull'erba</em></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 3</div>
+				  <img src="stile/img/slide2/klimt.jpeg" style="width:100%">
+				  <div class="text"><em>Giuditta</em></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 3</div>
+				  <img src="stile/img/slide2/duchamp.jpeg" style="width:100%">
+				  <div class="text"><em>Nudo che scende le scale</em></div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+
+				</div>
+				
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+				<p>In altri casi ad essere giudicato immorale è l'intero percorso dell'artista, celebre l'esempio di Schiele, criticato all'epoca e ancora oggi per le sue opere e la sua vita, o ancora il caso Modigliani e altri.</p>
+				<p>Ma queste opere venivano descritte come immorali solo nel passato?</p>
+				<p>La risposta è no. Negli ultimi anni tante opere vengono rimosse dai Musei più importanti del mondo perchè non consone alle "regole morali" del nostro tempo. Il politically corret attacca quindi non solo le opere contemporanee, ma anche le opere lontane dalla nostra epoca.</p>
+			</div>
+
+			<div>
+					<form action="/action_page.php">
+					  <div class="container">
+					    <h1>newsletter</h1>
+					    <p>Iscriviti alla newsletter per restare sempre aggiornato sugli ultimi item aggiunti al catalogo e sulle novità più interessanti e partecipa alla discussione sul mondo dell'arte!
+					   </p>
+					  </div>
+
+					  <div class="container" style="background-color:white">
+						    <input type="text" placeholder="Name" name="name" required>
+						    <input type="text" placeholder="Email address" name="mail" required>
+						    <label>
+						      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+						    </label>
+					  </div>
+
+						 <div class="container">
+						    <input type="submit" value="Subscribe">
+							</div>
+					</form>
+				</div>
+			
+			<div class="coda" class="clearfix">
+			<p><a href="#">Credits</a>|<a href="#">Licenze</a></p>
+			</div>
+		</section>
+		<footer>
+			<p>&copy;Copyright Valentina Leopizzi 2024 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</footer>	
+			<script>
+			let slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
+			<script>
+			function openNav() {
+			  document.getElementById("myNav").style.height = "100%";
+			}
+
+			function closeNav() {
+			  document.getElementById("myNav").style.height = "0%";
+			}
+			</script>
+	</body>	
+</html>	

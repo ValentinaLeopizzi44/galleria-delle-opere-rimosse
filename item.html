@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>La Galleria delle opere rimosse</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="stile/stile.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>
+			<h1>La Galleria delle opere rimosse
+			<link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet'></h1>
+		</header>
+		<nav>
+			<p><a href="index.html" class="barra">Home</a><a href="storia.html" class="barra">Storia</a><a href="listitems.html" class="pagina-attiva">Catalogo</a></p>
+			
+		</nav>
+		
+		<section>
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="listitems.html">Torna indietro</a>
+			  <a href="#">Dalla A alla Z</a>
+			  <a href="#">Ordine cronologico</a>
+			  <a href="listitemita.html">Opere in Italia</a>
+			  <a href="#">Opere all'estero</a>
+			</div>
+			<div id="main">
+			  <span style="font-size:15px; margin-left: 100px; cursor:pointer" onclick="openNav()">Ricerca</span>
+			</div>
+			
+			
+			<div class="item">
+				<img src="stile/img/items/ninfe1.jpeg">
+			</div>
+				<div class="meta">
+				<h6>Hyla e le ninfe</h6>
+				<p>Autore: John William Waterhouse</p>
+				<p>Data di creazione: 1896</p>
+				<p>Luogo di creazione: Londra</p>
+				<p>Tecnica: Olio su tela</p>
+				<p>Dimensioni: 98,2x163,3cm</p>
+				<p>Ubicazione: Manchester Art Gallery, Manchester</p>
+				<p>Data di rimozione: 2018</p>
+				</div>
+				<div class="testo">
+				<p><em>Hyla e le ninfe</em> è un'opera preraffaellita del pittore inglese John William Waterhouse.<br>Hyla è il giovane compagno di Ercole sulla nave degli Argonauti. Raggiunta l'isola di Ciros gli Argonauti cercano una fonte d'acqua dolce e Hyla trova uno stagno dove si china per bere, qui sette Naiadi, le ninfe dei fiumi, lo chiamano a loro mentre emergono dalle acque in mezzo alle ninfee.<br>Le Naiadi sono nude e la loro pelle candida risplende dalle profondità delle acque torbide dello stagno, una di loro afferra Hyla dal braccio, mentre un'altra lo tira dalla tunica. Hyla fu risucchiato nello stagno dalle nnfe e non fu mai più ritrovato.</p>
+				<p>Nel febbraio del 2018 il quadro è stato rimosso dalla <a href="https://manchesterartgallery.org" target="_blank" title="Apre il sito della Manchester Art Gallery"><strong>Manchester Art Gallery</strong></a> perchè potenzialmene offensivo per il pubblico.
+				Dietro la scelta di rimuovere l'opera ci sarebbero, secondo le parole della direzione della galleria, l'influenza di campagne contro la violenza sulle donne.
+				Le accuse sono quelle di esprimere un linguaggio maschilista e offensivo nei confronti delle donne e di mercificazione delle nudità femminili.<br>Gli amanti dell'opera hanno espresso le più diverse opinioni, la curatrice Clare Gannaway è stata accusata di omofobia in quanto il mito parla di Hyla come l'amante di Ercole, e che quindi Hyla non includa la bellezza femminile tra i propri gusti, rifiutando le ninfe. Chi pensa sia stata una mossa di marketing museale, tant'è che la parete orfana del dipinto è diventata la più visitata ed è stata tappezzata di post da parte dei visitatori in cui ogniuno lascia il proprio commento. Tuttavia ciascuno può avere la sua opinione, ma la vittima è stata in ogni caso l'opera di Waterhouse.</p>
+				</div>
+				<div class="btndd">
+				<a href="xml/DC.xml" target="_blank"><button class="btnd"><i class="fa fa-download"></i>XML/DC document</button></a>
+				</div>
+				<div>
+					<form action="/action_page.php">
+					  <div class="container">
+					    <h1>newsletter</h1>
+					    <p>Iscriviti alla newsletter per restare sempre aggiornato sugli ultimi item aggiunti al catalogo e sulle novità più interessanti e partecipa alla discussione sul mondo dell'arte!
+					   </p>
+					  </div>
+
+					  <div class="container" style="background-color:white">
+						    <input type="text" placeholder="Name" name="name" required>
+						    <input type="text" placeholder="Email address" name="mail" required>
+						    <label>
+						      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+						    </label>
+					  </div>
+
+						 <div class="container">
+						    <input type="submit" value="Subscribe">
+							</div>
+					</form>
+				</div>
+			
+			<div class="coda">
+				<p><a href="#">Credits</a>|<a href="#">Licenze</a></p>
+			</div>
+		</section>
+		<footer>
+			<p>&copy;Copyright Valentina Leopizzi 2024 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</footer>
+		<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+		</script>			
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
